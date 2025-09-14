@@ -1,0 +1,41 @@
+/* Footer styles */
+.footer {
+  background: linear-gradient(90deg, #1a0036 60%, #c084fc 100%);
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0 0.5rem 0;
+  border-radius: 10px 10px 0 0;
+  margin-top: 2.5rem;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1rem;
+  box-shadow: 0 -2px 16px #c084fc33;
+}
+.footer-links a {
+  color: #c084fc;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.footer-links a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #c084fc;
+}
+.footer-copy {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  color: #e0d7ff;
+}
+.footer-contact {
+  margin-top: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+}
+.footer-contact i {
+  color: #c084fc;
+  margin-right: 0.3em;
+}
+.footer-contact span {
+  margin: 0 0.7em;
+}

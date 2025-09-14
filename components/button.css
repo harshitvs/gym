@@ -1,0 +1,60 @@
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 0.55rem 1.3rem;
+  border: none;
+  border-radius: 18px;
+  font-size: 1rem;
+  font-family: 'Roboto', Arial, sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  letter-spacing: 0.2px;
+  background: #c084fc;
+  color: #fff;
+  box-shadow: 0 1px 6px #c084fc33;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s, transform 0.18s;
+}
+.btn.primary {
+  background: #c084fc;
+  color: #fff;
+  border: 1.5px solid #c084fc;
+}
+.btn.primary:hover {
+  background: #fff;
+  color: #7c3aed;
+  box-shadow: 0 2px 10px #c084fc55;
+  transform: translateY(-1px) scale(1.03);
+  border-color: #7c3aed;
+}
+.btn.secondary {
+  background: linear-gradient(90deg, #fff 60%, #c084fc 100%);
+  color: #7c3aed;
+  border: 1.5px solid #c084fc;
+  position: relative;
+  padding-left: 2.2rem;
+  font-weight: 700;
+  overflow: hidden;
+}
+.btn.secondary::before {
+  content: '\f2f6'; /* fa-sign-in-alt */
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #c084fc;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+.btn.secondary:hover {
+  background: linear-gradient(90deg, #c084fc 60%, #fff 100%);
+  color: #fff;
+  box-shadow: 0 2px 10px #c084fc99;
+  transform: translateY(-1px) scale(1.06);
+  border-color: #7c3aed;
+}
+.btn.secondary:hover::before {
+  color: #fff;
+}

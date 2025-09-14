@@ -1,0 +1,180 @@
+/* Main styles */
+body {
+  margin: 0;
+  background: linear-gradient(120deg, #1a0036 0%, #c084fc 100%);
+  color: #fff;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 0 0 12px #c084fc, 0 0 24px #1a0036;
+}
+.subheading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1.5rem 0 1rem 0;
+  text-align: center;
+  color: #c084fc;
+  text-shadow: 0 0 8px #fff, 0 0 16px #c084fc;
+}
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: rgba(20, 0, 40, 0.92);
+  border-radius: 16px;
+  box-shadow: 0 4px 32px #c084fc55;
+  padding: 2rem;
+  color: #fff;
+}
+.gallery {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.equipment-gallery {
+  display: block;
+  text-align: center;
+}
+.equipment-img {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0.7rem;
+  box-shadow: 0 4px 16px #c084fc55;
+  border: 2px solid #c084fc77;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.equipment-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px #c084fcaa;
+}
+.login-form, .contact-form {
+  max-width: 350px;
+  margin: 2rem auto 0 auto;
+  display: block;
+  background: rgba(34,0,51,0.85);
+  border-radius: 10px;
+  box-shadow: 0 2px 12px #c084fc55;
+  padding: 1.5rem 1rem;
+}
+label {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  display: block;
+  color: #fff;
+}
+ul {
+  padding-left: 1.2rem;
+  color: #fff;
+}
+.memberships-container {
+  display: block;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+.membership-card {
+  display: inline-block;
+  width: 220px;
+  background: linear-gradient(120deg, #1a0036 0%, #c084fc 100%);
+  border: 2px solid #c084fc77;
+  border-radius: 14px;
+  margin: 1rem;
+  padding: 1.5rem 1rem 1.2rem 1rem;
+  box-shadow: 0 2px 12px #c084fc55;
+  vertical-align: top;
+  transition: box-shadow 0.2s, transform 0.2s;
+  color: #fff;
+}
+.membership-card:hover {
+  box-shadow: 0 8px 32px #c084fcaa;
+  transform: translateY(-4px) scale(1.04);
+}
+.membership-card h2 {
+  color: #c084fc;
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+  text-shadow: 0 0 8px #fff, 0 0 16px #c084fc;
+}
+.membership-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.6rem;
+  margin-top: 0.2rem;
+}
+.membership-logo i {
+  font-size: 2.1rem;
+  color: #c084fc;
+  background: #fff;
+  border-radius: 50%;
+  padding: 0.5rem 0.7rem;
+  box-shadow: 0 2px 10px #c084fc44;
+  margin-bottom: 0.2rem;
+  transition: box-shadow 0.2s, color 0.2s;
+}
+.membership-card:hover .membership-logo i {
+  color: #fff;
+  background: #c084fc;
+  box-shadow: 0 4px 18px #c084fc99;
+}
+.membership-card .price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 1rem 0 0.7rem 0;
+  text-shadow: 0 0 8px #c084fc;
+}
+.equipment-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px #d400ff66;
+}
+.memberships-container {
+  display: block;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+.membership-card {
+  display: inline-block;
+  width: 220px;
+  background: #fffbe6;
+  border: 2px solid #ffb30033;
+  border-radius: 14px;
+  margin: 1rem;
+  padding: 1.5rem 1rem 1.2rem 1rem;
+  box-shadow: 0 2px 12px rgba(255,179,0,0.08);
+  vertical-align: top;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.membership-card:hover {
+  box-shadow: 0 8px 32px rgba(255,179,0,0.18);
+  transform: translateY(-4px) scale(1.04);
+}
+.membership-card h2 {
+  color: #ffb300;
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+}
+.membership-card .price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222;
+  margin: 1rem 0 0.7rem 0;
+}
+.login-form, .contact-form {
+  max-width: 350px;
+  margin: 2rem auto 0 auto;
+  display: block;
+}
+label {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+ul {
+  padding-left: 1.2rem;
+}
